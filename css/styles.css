@@ -1,0 +1,233 @@
+body{
+  font-family: Montserrat;
+}
+
+a{
+  color: #000000;
+}
+/* ================================================================== */
+#title{
+  color: #fff;
+}
+
+.container-fluid{
+  padding: 2% 15% 4%;
+}
+
+.coloredsection{
+  background-color: #FF4C68;
+  color: #fff;
+}
+
+.noncoloredsection{
+  background-color: #fff;
+}
+
+h1, h2, h3{
+  font-family: Montserrat;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h1{
+  font-size: 3.5rem;
+}
+
+h3{
+  font-size: 3rem;
+  /* padding: 4% 15%; */
+}
+
+p{
+  font-family: ubuntu, sans-serif;
+  font-size: 1.2rem;
+  line-height: 2;
+  color: #8F8F8F;
+}
+
+/* ================================================================= */
+/* NAVIGATION BAR */
+.navbar-brand{
+  font-family: ubuntu;
+  font-size: 2.5rem;
+}
+
+.navbar{
+  padding-bottom:4.5rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.3rem;
+}
+
+.apple{
+  margin: 5% 3% 5% 0;
+}
+
+.dogimg{
+  transform: rotate(25deg);
+  width: 20%;
+  position: absolute;
+  left: 54%;
+}
+
+@media (max-width:993px){
+
+.dogimg{
+  position: static;
+  transform: rotate(0deg);
+  width: 80%;
+}
+
+#title{
+  text-align: center;
+}
+}
+
+/* ============================================================= */
+/* FEATURES */
+
+#features{
+  padding: 5% 1%;
+  position: relative;
+  z-index: 1;
+}
+
+/* .featuretitle{
+  font-size: 5rem;
+} */
+
+.featurebox{
+  padding: 4.5%;
+  text-align: center;
+}
+
+.ficon{
+  color: #EF8172;
+  padding-bottom: 5%;
+}
+
+.ficon:hover{
+  color: #FF4C68;
+}
+
+/* ================================================================ */
+/* testimonials */
+#testimonials{
+  background-color: #EF8172;
+  font-family: Montserrat;
+  text-align: center;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.dog2img{
+  width: 14%;
+  border-radius: 100%;
+  margin: 5%;
+}
+
+.testem{
+  font-size: 1.3rem;
+}
+
+/* CAROUSEL */
+.carousel-item{
+  height: 500px;
+  padding: 5% 15%;
+  margin-bottom: 3%;
+}
+
+/* ================================================================== */
+/* PRESS */
+#press{
+  background-color: #EF8172;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.presslogo{
+  width: 15%;
+  padding: 20px 20px 50px;
+}
+
+/* ================================================================= */
+/* PRICING */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.sectionheading{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.pricingtext{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.pricinghead{
+  font-size: 3rem;
+}
+
+.pricingcol{
+  padding: 3% 2%;
+  text-align: center;
+}
+
+/* ================================================================== */
+/* END */
+
+#end{
+  text-align: center;
+  padding: 5% 15%;
+}
+
+.apple2, .google2{
+  margin:0 1%;
+  margin-bottom: 2%;
+}
+
+h4{
+  font-family: Montserrat;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  padding-bottom: 4%;
+}
+
+/* ================================================================== */
+/* FOOTER */
+
+#foot{
+    padding: 5% 15%;
+    text-align: center;
+}
+
+.ficons{
+  margin: 20px 20px;
+  transform:scale(100%);
+  transition: 0.3s;
+}
+
+.ficons:hover{
+  color: #FF4C68;
+  transform:scale(125%);
+  /* transition: 0.3s; */
+}
+
+.topicon{
+  color: #000000;
+}
